@@ -1,0 +1,52 @@
+h1 {
+  color: white;
+  font-size: huge;
+  border : 1px solid white;
+  transition : all 0.4s ease-in-out
+}
+
+h1:hover { display : block;
+  background-color : silver}
+
+
+
+main {
+    color: white;
+    font-size: huge;
+    border : 1px solid white;
+    transition : all 0.4s ease-in-out
+  }
+
+main:hover { display : block;
+    background-color : silver
+
+}
+
+nav {
+  color: white;
+  font-size: huge;
+  border : 1px solid white;
+  transition : all 0.4s ease-in-out
+}
+
+nav:hover  {display : block;
+  background-color : silver}
+
+
+
+body {
+  color:black;
+  background-color:white;
+  background-image:url(coursdemaths.webp);
+  margin:10px;
+  
+  }
+
+
+  mark {
+    background-color: 
+  grey;
+    color: 
+  white;
+  }
+
