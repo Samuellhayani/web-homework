@@ -1,43 +1,44 @@
 h1 {
-  color: white;
+  color: black;
   font-size: huge;
-  border : 1px solid white;
+  border : 1px solid black;
   transition : all 0.4s ease-in-out
 }
 
 h1:hover { display : block;
-  background-color : silver}
+  background-color : lemonchiffon}
 
 
 
 main {
-    color: white;
+    color: black;
     font-size: huge;
-    border : 1px solid white;
+    border : 1px solid black;
     transition : all 0.4s ease-in-out
   }
 
 main:hover { display : block;
-    background-color : silver
+    background-color : lemonchiffon
 
 }
 
-nav {
-  color: white;
+div {
+  color: black;
   font-size: huge;
-  border : 1px solid white;
+  border : 1px solid black;
   transition : all 0.4s ease-in-out
 }
 
-nav:hover  {display : block;
-  background-color : silver}
+div:hover  {display : block;
+  background-color : rgb(250, 255, 205)}
 
 
 
 body {
   color:black;
   background-color:white;
-  background-image:url(coursdemaths.webp);
+  background-image:url(maths-modified.webp);
+  font-family: 'Arial';
   margin:10px;
   
   }
@@ -45,8 +46,8 @@ body {
 
   mark {
     background-color: 
-  grey;
+  transparent;
     color: 
-  white;
+  black;
   }
 
