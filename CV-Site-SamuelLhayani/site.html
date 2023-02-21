@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <img src=images/fondecran.jpg id=fondecran class=fondecran alt=/>
+    
     <header>
        <center> <mark><h1>Sam'school</h1> <br> par Samuel Lhayani </mark></center> 
     </center> <br>
@@ -15,26 +15,29 @@
         <img src="174857.png" width="30"
        height="30"></center> 
         </a> 
+        <p>
+          <ul>
+            <mark>
+              <li> <a href="#courses" style="color : black">Cours</a></li>
+              <li><a href="#appointments" style="color : black">Rendez-vous</a></li>
+              <li><a href="#contact" style="color : black">Contact</a></li>
+              <li><a href="#avis" style="color: black">Avis </a></li>
+          </mark>
+          </ul>
+        </p>
     </header>
 
 
      
-    <div>
-      <ul>
-        <mark>
-          <li> <a href="#courses" style="color : black">Cours</a></li>
-          <li><a href="#appointments" style="color : black">Rendez-vous</a></li>
-          <li><a href="#contact" style="color : black">Contact</a></li>
-          <li><a href="#avis" style="color: black">Avis </a></li>
-      </mark>
-      </ul>
-    </div>
+   
 
     <div>
       <section id="courses">
+       <img src="coursparticulier.jpeg" width="360" height="260" align="right">
+       
         
         <h2><mark>Cours Dispensés</mark></h2>
-        <p><mark> Nous proposons des cours particuliers aux élèves de collèges et lycées en mathématiques et en physique dispensés par des étudiants des mines de Paris.</mark></p>
+        <p><mark> Nous proposons des cours particuliers aux élèves de collèges et lycées <br> en mathématiques et en physique dispensés par des étudiants des mines de Paris.</mark></p>
         <ul>
        <li><h4><mark>Maths</mark></h4></li> 
      
@@ -47,7 +50,8 @@
     </div>
     
 
-    <div>
+    <div align="right">
+      <img src = "agenda-11.jpg" align="left" width="260" height="205">
       <section id="appointments">
         <h2><mark>Prendre un Rendez-vous</mark></h2> 
         <form action="submit-appointment.php" method="post">
@@ -56,10 +60,10 @@
           <label for="email">Adresse e-mail :</label>
           <input type="email" id="email" name="email"><br><br>
           <label for="matière">Matière :</label>
-          <input type="text"> 
+          <input type="text"> <br> <br>
           <label for="date">Date souhaitée :</label>
           <input type="date" id="date" name="date"><br><br>
-          <input type="submit" value="Soumettre">
+          <input type="submit" value="Envoyer">
         </form>
       </section>
     </div>
